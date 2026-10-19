@@ -16,3 +16,4 @@ node_modules
 .DS_Store
 .tmp-qorma/
 *.log
+public/screenshots/

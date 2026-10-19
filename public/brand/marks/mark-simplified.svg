@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Azkar Al Muslm">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#155B4C"/><stop offset="1" stop-color="#07382E"/></linearGradient><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9E7AA"/><stop offset=".55" stop-color="#CE9D47"/><stop offset="1" stop-color="#FAE2A4"/></linearGradient></defs>
+<rect width="256" height="256" rx="56" fill="url(#bg)"/>
+<path d="M128 27 C151 59 194 72 199 116 L199 199 Q199 222 176 222 L80 222 Q57 222 57 199 L57 116 C62 72 105 59 128 27Z" stroke="url(#gold)" stroke-width="9" stroke-linejoin="round" fill="none"/>
+<circle cx="128" cy="101" r="34" fill="url(#gold)"/>
+<circle cx="143" cy="85" r="32" fill="#104D3F"/>
+<path d="M128 134 C139 154 148 164 148 185 C148 197 138 205 128 210 C118 205 108 197 108 185 C108 164 117 154 128 134Z" fill="#FFF4DC"/>
+<path d="M128 151 C133 166 136 183 128 193 C120 183 123 166 128 151Z" fill="url(#gold)"/>
+<path d="M178 66 L184 78 L196 84 L184 90 L178 102 L172 90 L160 84 L172 78Z" fill="url(#gold)"/>
+</svg>

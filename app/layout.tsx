@@ -2,6 +2,7 @@ import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Tajawal } from 'next/font/google'
 import './globals.css'
+import './brand-experience.css'
 
 const tajawal = Tajawal({
   subsets: ['arabic', 'latin'],
@@ -17,6 +18,10 @@ export const metadata: Metadata = {
   generator: 'azkar-al-muslm',
   icons: {
     icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-16.png', sizes: '16x16', type: 'image/png' },
       {
         url: '/icon-light-32x32.png',
         media: '(prefers-color-scheme: light)',
@@ -24,10 +29,6 @@ export const metadata: Metadata = {
       {
         url: '/icon-dark-32x32.png',
         media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
       },
     ],
     apple: '/apple-icon.png',
@@ -37,8 +38,8 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   colorScheme: 'light dark',
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#f7f4ec' },
-    { media: '(prefers-color-scheme: dark)', color: '#102e2b' },
+    { media: '(prefers-color-scheme: light)', color: '#F7F2E9' },
+    { media: '(prefers-color-scheme: dark)', color: '#092B27' },
   ],
 }
 

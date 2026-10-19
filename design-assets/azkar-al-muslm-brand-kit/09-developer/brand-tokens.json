@@ -1,0 +1,17 @@
+{
+  "name": "azkar-al-muslm",
+  "displayName": "أذكار المسلم",
+  "palette": {
+    "primary": "#0B493B",
+    "primaryDark": "#092B27",
+    "background": "#F7F2E9",
+    "ivory": "#FFF9EC",
+    "accentGold": "#CDA85F",
+    "accentGoldLight": "#E4C783"
+  },
+  "typography": {
+    "headings": "Qomra Arabic",
+    "ui": "Tajawal (provide separately)"
+  },
+  "tagline": "رفيقك اليومي للذكر والطمأنينة"
+}
